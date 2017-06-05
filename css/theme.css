@@ -68,9 +68,22 @@ body {
         font-size: 12px;
     }
 
+    #navbar {
+        padding: 0;
+    }
+
     #banner {
         width: 90%;
-        height: auto;
+        height: 100px;
+        background-image: url("../images/spp.svg");
+        background-size: 90% 100%;
+        background-repeat: no-repeat;
+        background-position: 60% center;
+    }
+
+    #banner img.center {
+        display: block;
+        margin: 0 auto;
     }
 
     .sidebar {

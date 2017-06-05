@@ -1,6 +1,7 @@
 .navbar-clean {
     background-color: white;
     border-color: white;
+    margin-bottom: 0;
 }
 
 .main_act {
@@ -26,9 +27,9 @@ body {
 
     .navbar-header {
         background-image: url("../images/spp.svg");
-        background-size: auto 70px;
+        background-size: 570px auto;
         background-repeat: no-repeat;
-        background-position: -45px center;
+        background-position: calc(50% - 25px) center;
     }
 
     .csc-textpic-image table {
@@ -43,10 +44,10 @@ body {
 
 @media (max-width: 655px) {
     .navbar-header {
-        background-image: url("../images/dff_logo_redesign.svg");
-        background-size: auto 63px;
+        background-image: url("../images/spp_small.svg");
+        background-size: auto 65px;
         background-repeat: no-repeat;
-        background-position: left center;
+        background-position: calc(50% - 25px) center;
     }
 }
 
@@ -74,11 +75,6 @@ body {
 
     .sidebar {
         float: right;
-        margin-left: 0;
-    }
-
-    .col-sm-8 {
-        width: 74.666667%;
     }
 }
 
@@ -111,10 +107,6 @@ body {
     text-align: justify;
 }
 
-.col-sm-8 .col-sm-3 {
-    padding: 0;
-}
-
 .navbar-toggle {
     float: none;
     margin-top: 2px;
@@ -128,11 +120,16 @@ body {
 
 .sidebar-offcanvas ul {
     list-style-type: none;
+    padding-left: 1em;
 }
 
 .sub_act {
     background-color: #333399;
     color: white;
+}
+
+h1, h2, h3 {
+    margin-top: 10px;
 }
 
 a:link, a:visited {
